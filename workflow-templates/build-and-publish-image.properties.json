@@ -1,0 +1,11 @@
+{
+  "name": "Build and Publish container image",
+  "description": "Builds a Docker container image and pushes it to one of PDOK's container registries.",
+  "iconName": "container",
+  "categories": [
+    "Dockerfile"
+  ],
+  "filePatterns": [
+    "^Dockerfile"
+  ]
+}
