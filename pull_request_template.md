@@ -24,3 +24,4 @@ https://dev.kadaster.nl/jira/browse/PDOK-
 - [ ] Ik heb de tests toegevoegd/uitgebreid indien nodig
 - [ ] Ik heb de tests gedraaid die de werking van mijn wijziging bewijst
 - [ ] De [PDOK documentatie](https://github.com/PDOK/interne-documentatie) is bijgewerkt indien nodig.
+- [ ] Er zit geen gevoelig informatie in deze PR (wachtwoorden etc)
