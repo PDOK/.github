@@ -11,14 +11,13 @@ jobs:
     steps:
       - name: Docker meta
         id: docker_meta
-        uses: crazy-max/ghaction-docker-meta@v1
+        uses: docker/metadata-action@v3
         with:
           images: ${{ env.image }}
-          tag-semver: |
-            {{version}}
-            {{major}}.{{minor}}
-            v{{major}}
-          tag-latest: false
+          tags: |
+            type=semver,pattern={{major}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{version}}
       - name: Login to PDOK Azure Container Registry
         if: startsWith(env.image, 'pdokcr.azurecr.io/')
         uses: docker/login-action@v1
