@@ -1,27 +1,24 @@
-# Omschrijving
+# Description
 
-Een omschrijving van wat je hebt toegevoegd/veranderd:
+_What_ have you changed and _why_?
 
-https://dev.kadaster.nl/jira/browse/PDOK-
+## Type of change
 
-## Type verandering
-
-(Verwijder de opties die niet relevant zijn.)
+(Remove irrelevant options)
 
 - Minor change (typo, formatting, version bump)
-- Nieuwe feature
-- Verbetering oude feature
+- New feature
+- Improvement of existing feature
 - Bugfix
-- Refactor
-- Aanpassing van de configuratie
+- Refactoring
+- Configuration change
 - Breaking change
 
 # Checklist:
 
-- [ ] Ik heb de code in deze PR zelf nogmaals nagekeken
-- [ ] Ik heb mijn code beter achtergelaten dan dat ik het aantrof
-- [ ] De code is leesbaar en de moeilijke onderdelen zijn voorzien van commentaar
-- [ ] Ik heb de tests toegevoegd/uitgebreid indien nodig
-- [ ] Ik heb de tests gedraaid die de werking van mijn wijziging bewijst
-- [ ] De [PDOK documentatie](https://github.com/PDOK/interne-documentatie) is bijgewerkt indien nodig.
-- [ ] Er zit geen gevoelig informatie in deze PR (wachtwoorden etc)
+- [ ] I've double-checked the code in this PR myself
+- [ ] I've left the code better than before ([boy scout rule](https://wiki.c2.com/?BoyScoutRule))
+- [ ] The code is readable, comments are added that explain hard or non-obvious parts.
+- [ ] I've expanded/improved the (unit) tests, when applicable
+- [ ] I've run (unit) tests that prove my solution works
+- [ ] There's no sensitive information like credentials in my PR
