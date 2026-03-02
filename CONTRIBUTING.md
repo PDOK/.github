@@ -2,6 +2,17 @@
 
 Great! Contributions are welcome.
 
+## No Automated Agents or Bot‑Generated Contributions
+
+PDOK repositories do not accept issues, comments, or pull requests created or submitted by AI agents, automated tools, or bots acting without direct human authorship and review.
+All contributions must be:
+
+* reviewed, and submitted by a human
+* accountable and attributable
+* reproducible without dependence on proprietary or undisclosed AI tools
+
+Automated submissions will be closed without review.
+
 ## Reporting a Bug
 
 - **Do not open a GitHub issue if the bug is a security vulnerability.**  
